@@ -11,7 +11,7 @@ class Domain: InetProtocol() {
 		lengthOfAddress = length
 	}
 	override fun getAddressAsString(): String {
-
+		return address.toString()
 	}
 
 	override fun setAddress(packet: ByteReadPacket) {
